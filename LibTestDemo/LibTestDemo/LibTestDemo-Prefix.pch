@@ -1,0 +1,19 @@
+//
+//  LibTestDemo-Prefix.pch
+//  LibTestDemo
+//
+//  Created by mac on 15/8/2.
+//  Copyright (c) 2015年 com.liu. All rights reserved.
+//
+
+#ifndef LibTestDemo_LibTestDemo_Prefix_pch
+#define LibTestDemo_LibTestDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import "libTest/libTest.h" //导入文件的正确路径，因文件位置不同，有所不同，大家自己注意。我的是当前项目的libTest文件夹下，所以是libTest/libTest.h
+#endif
+
+#endif
